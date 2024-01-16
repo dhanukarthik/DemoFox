@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"classpath:FeatureFiles/Register.feature"},
 glue = {"classpath:com.tutorialsninja.automation.stepdef"},
 plugin = {"html:target/cucumber_html.report"},
-tags = {"@Register","@One"})
+tags = {"@Register","@Three"})
 public class Runner {
 
 }
